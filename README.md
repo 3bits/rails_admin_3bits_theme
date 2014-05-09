@@ -1,31 +1,23 @@
-##RailsAdmin Bootstrap Flatly theme.
+##RailsAdmin Bootstrap 3bits theme.
 
-![ScreenShot](https://raw.github.com/konjoot/rails_admin_flatly_theme/master/preview.png)
+![ScreenShot]()
 
 ### Usage
 
 In your `Gemfile`:
 ```ruby
-gem 'rails_admin_flatly_theme', :git => 'git://github.com/konjoot/rails_admin_flatly_theme.git', :branch => 'release_1.0'
+gem 'rails_admin_3bits_theme', :git => 'git@github.com:3bits/rails_admin_3bits_theme.git'
 ```
-
-Or for last changes:
-
-```ruby
-gem 'rails_admin_flatly_theme', :git => 'git://github.com/konjoot/rails_admin_flatly_theme.git'
-```
-
 
 Inside `config/application.rb`, just after `Bundler.require`:
 
 ```ruby
-ENV['RAILS_ADMIN_THEME'] = 'flatly_theme'
+ENV['RAILS_ADMIN_THEME'] = '3bits_theme'
 ```
 
 Then run `bundle`, `rake assets:clean` and finally `rake assets:precompile`.
 
 May be you should run `rm -rf tmp/cache/assets/development/`, for changes to take effect.
-
 
 
 This project distributes under MIT-LICENSE.

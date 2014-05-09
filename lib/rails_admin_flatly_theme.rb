@@ -1,4 +1,4 @@
-require "rails_admin_flatly_theme/engine"
+require "rails_admin_3bits_theme/engine"
 
-module RailsAdminFlatlyTheme
+module RailsAdmin3bitsTheme
 end
