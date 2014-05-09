@@ -18,7 +18,7 @@ $white:                 #fff;
 // Accent colors
 // -------------------------
 $blue:                  #3498DB;
-$blueDark:              #2C3E50;
+$blueDark:              #322f31;
 $green:                 #18BC9C;
 $red:                   #E74C3C;
 $yellow:                #e6bb0d;
@@ -35,7 +35,7 @@ $textColor:             $blueDark;
 
 // Links
 // -------------------------
-$linkColor:             #1ABC9C;
+$linkColor:             #c5341b;
 $linkColorHover:        lighten($linkColor, 5%);
 
 
@@ -45,7 +45,7 @@ $sansFontFamily:        "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-se
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
-$baseFontSize:          17px;
+$baseFontSize:          14px;
 $baseFontFamily:        $sansFontFamily;
 $baseLineHeight:        22px;
 $altFontFamily:         $serifFontFamily;
